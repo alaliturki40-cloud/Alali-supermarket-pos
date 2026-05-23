@@ -11,8 +11,8 @@ export default function Contact({ notify }) {
 
   const info = [
     { ic:'ti-mail',    t:'البريد الإلكتروني', v:'info@ali-supermarket.com' },
-    { ic:'ti-phone',   t:'الهاتف',             v:'+961 1 234 567' },
-    { ic:'ti-map-pin', t:'العنوان',            v:'بيروت، لبنان — شارع الحمرا' },
+    { ic:'ti-phone',   t:'الهاتف',             v:'139 550 28' },
+    { ic:'ti-map-pin', t:'العنوان',            v:'البقاع برالياس النهرية' },
     { ic:'ti-clock',   t:'أوقات العمل',        v:'الاثنين – السبت، 8 ص – 10 م' },
   ]
 
@@ -75,7 +75,7 @@ export default function Contact({ notify }) {
           <div style={{ background: '#F7E0E8', borderRadius: 10, padding: 18, textAlign: 'center', border: '0.5px solid #C75A78' }}>
             <i className="ti ti-map" style={{ fontSize: 28, color: '#A32844', display: 'block', marginBottom: 6 }} />
             <div style={{ fontSize: 13, fontWeight: 500, color: '#5D1220' }}>سوبرماركت العلي</div>
-            <div style={{ fontSize: 11, color: '#7A1D35', marginTop: 2 }}>Al-Ali Supermarket · Beirut, Lebanon</div>
+            <div style={{ fontSize: 11, color: '#7A1D35', marginTop: 2 }}>البقاع برالياس النهرية</div>
           </div>
         </div>
       </div>
